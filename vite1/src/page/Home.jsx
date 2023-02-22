@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const Home = () => {
     return (
         <>
-        <header class="text-gray-600 body-font">
+        {/* <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
@@ -13,27 +13,27 @@ const Home = () => {
       </svg>
       <span class="ml-3 text-xl">CHKFKE</span>
     </a>
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center"> */}
       {/* <a class="mr-5 hover:text-gray-900">First Link</a>
       <a class="mr-5 hover:text-gray-900">Second Link</a>
       <a class="mr-5 hover:text-gray-900">Third Link</a>
       <a class="mr-5 hover:text-gray-900">Fourth Link</a> */}
-    </nav>
+    {/* </nav> */}
     {/* <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
     </button> */}
-  </div>
-</header>
+  {/* </div>
+</header> */}
 
 
 
-<section class="text-gray-600 body-font overflow-hidden">
+{/* <section class="text-gray-600 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
-    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+    <div class="lg:w-4/5 mx-auto flex flex-wrap"> */}
       <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src={Logo}/>
-      <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+      {/* <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0"> */}
         {/* <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2> */}
         <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Genuine Product</h1>
         
@@ -44,6 +44,7 @@ const Home = () => {
 				<h5>Date of Manufacturing(YYYY-MM-DD): &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023-09-12</h5>
 				<h5>Place of Manufacturing:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lucknow</h5>
 				<h5>Unique Identification Id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8899776655443399</h5>
+				<h5>Type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXXXXX</h5>
 			</div>
         {/* <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"> */}
           {/* <div class="flex">
@@ -78,10 +79,10 @@ const Home = () => {
             </svg>
           </button>
         </div> */}
-      </div>
+      {/* </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
         </>
